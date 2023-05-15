@@ -19,11 +19,11 @@ html {
     height: 100%;
 }
 
-body{
+body {
     background: var(--yellow-theme-background-color);
     height: 100%;
 }
 
-#root{
+#root {
     height: 100%;
 }
