@@ -1,8 +1,11 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeaderContent from "../../components/pageHeaderContent";
-import './util.js';
+import "./util.js";
+import './styles.scss';
 import { skillData } from "./util.js";
+import { Animate, AnimateKeyframes } from "react-simple-animate";
+import { Line } from "rc-progress";
 
 const Skills = () => {
   return (
@@ -23,20 +26,32 @@ const Skills = () => {
                 transform: "translateX(-200px)",
               }}
               end={{
-                transform: "translatex(0px)",
+                transform: "translateX(0px)",
               }}
             >
               <h3 className="skills__content-wrapper__inner-content__category-text">
                 {item.label}
               </h3>
-              <div>
-                {
-                  item.data.map((skillItem)=>(
-                    <AnimateKeyframes>
-                      
-                    </AnimateKeyframes>
-                  ))
-                }
+              <div className="skills__content-wrapper__inner-content__progressbar-container">
+                {item.data.map((skillItem, j) => (
+                  <AnimateKeyframes
+                    play
+                    duration={1}
+                    keyframes={["opacity : 1", "opacity : 0"]}
+                    iterationCount="1"
+                  >
+                    <div className="progressbar-wrpper" key={j}>
+                      <p>{skillItem.skillName}</p>
+                      <Line
+                        percent={skillItem.percentage}
+                        strokeWidth="2"
+                        strokeColor="var(--yellow-theme-main-color)"
+                        trailWidth="2"
+                        strokeLinecap="square"
+                      />
+                    </div>
+                  </AnimateKeyframes>
+                ))}
               </div>
             </Animate>
           </div>
