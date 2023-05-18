@@ -15,7 +15,7 @@ const Home = () => {
       <div className="home__text-wrapper">
         <h1>
           Hello !! I am Mayank Bisht
-          <br />
+          <br/>
           Student , Researcher & Developer
         </h1>
       </div>
@@ -35,7 +35,7 @@ const Home = () => {
           <button ><a href="https://github.com/MayankBisht8630"><FaGithub/></a></button>
           <button ><a href="https://www.linkedin.com/in/mayank-bisht-b00ba6236"><FaLinkedin/></a></button>
           <button ><a href="https://www.instagram.com/bisht_mayank_/"><FaInstagram/></a></button>
-          <button ><a href="https://docs.google.com/document/d/1F356jblSWedrm9ns6yRNwVrZ1JlEi1WTwfs_YzS2IJU/edit?usp=sharing">Download Resume</a></button>
+          <button ><a href="https://docs.google.com/document/d/1F356jblSWedrm9ns6yRNwVrZ1JlEi1WTwfs_YzS2IJU/edit?usp=sharing">Resume</a></button>
 
         </div>
       </Animate>
