@@ -4,8 +4,8 @@ import Home from "./containers/home";
 import About from "./containers/about";
 import Resume from "./containers/resume";
 import Skills from "./containers/skills";
-import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
+import Manku from "./containers/portfolio";
 import NavBar from "./components/navBar";
 import { BrowserRouter } from "react-router-dom";
 import Particles from "react-tsparticles";
@@ -37,8 +37,8 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/skills" element={<Skills />} />
-              <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/Mayank" element={<Manku />} />
             </Routes>
           </div>
         </BrowserRouter>

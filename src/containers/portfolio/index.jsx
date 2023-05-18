@@ -6,39 +6,53 @@ import ImageTwo from "../../images/image2.jpg";
 import ImageThree from "../../images/image3.jpg";
 import ImageFour from "../../images/image4.jpg";
 import ImageFive from "../../images/image5.jpg";
+import ImageSix from "../../images/image6.jpg";
+import ImageSeven from "../../images/image7.jpg";
 import "./styles.scss";
 import { useState } from "react";
 
 const portfolioData = [
   {
     id: 2,
-    name: "Bloging Website",
+    name: "E Library Website",
     image: ImageOne,
     link: "",
   },
   {
-    id: 3,
-    name: "Notes App",
+    id: 2,
+    name: "Search Website",
     link: "",
     image: ImageTwo,
   },
   {
     id: 2,
-    name: "Supplier Design",
+    name: "Management Website",
     image: ImageThree,
     link: "",
   },
   {
     id: 2,
-    name: "Todo App",
+    name: "Bloging Website",
     image: ImageFour,
 
     link: "",
   },
   {
-    id: 3,
-    name: "Shopping cart design",
+    id: 2,
+    name: "Calculator API",
     image: ImageFive,
+    link: "",
+  },
+  {
+    id: 3,
+    name: "Portfolio Website",
+    image: ImageSix,
+    link: "",
+  },
+  {
+    id: 3,
+    name: "Open Source",
+    image: ImageSeven,
     link: "",
   },
 ];
@@ -58,7 +72,7 @@ const filterData = [
   },
 ];
 
-const Portfolio = () => {
+const portfolio = () => {
   const [filteredvalue, setFilteredValue] = useState(1);
   const [hoveredValue, setHoveredValue] = useState(null);
 
@@ -74,8 +88,6 @@ const Portfolio = () => {
     filteredvalue === 1
       ? portfolioData
       : portfolioData.filter((item) => item.id === filteredvalue);
-
-  console.log(filteredItems);
 
   return (
     <section id="portfolio" className="portfolio">
@@ -112,7 +124,7 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Project Github Link </button>
+                    <button>Visit</button>
                   </div>
                 )}
               </div>
@@ -123,4 +135,4 @@ const Portfolio = () => {
     </section>
   );
 };
-export default Portfolio;
+export default portfolio;

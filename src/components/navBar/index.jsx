@@ -22,7 +22,7 @@ const data = [
   },
   {
     label : "PORTFOLIO",
-    to : "/portfolio",
+    to : "/Mayank",
   },
   {
     label : "CONTACT",
