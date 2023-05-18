@@ -124,7 +124,11 @@ const portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Visit</button>
+                    <button>
+                      <a href="https://github.com/MayankBisht8630">
+                        GitHub Repo
+                      </a>
+                    </button>
                   </div>
                 )}
               </div>
