@@ -39,7 +39,7 @@ export const data = {
     },
     {
       title: "Java ",
-      subTitle: "",
+      subTitle: "API",
       description:
         "Created the calculator API which can perform all the basic calculations performed by a calculator ",
     },
