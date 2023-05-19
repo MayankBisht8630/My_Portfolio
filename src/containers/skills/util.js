@@ -18,6 +18,14 @@ export const skillData = [
         skillName: "JAVASCRIPT",
         percentage: "80",
       },
+      {
+        skillName: "BOOTSTRAP",
+        percentage: "80",
+      },
+      {
+        skillName: "TAILWIND CSS",
+        percentage: "80",
+      },
     ],
   },
   {
@@ -51,6 +59,10 @@ export const skillData = [
       {
         skillName: "SPRING BOOT FRAMEWORK",
         percentage: "80",
+      },
+      {
+        skillName: "HIBERNATE FRAMEWORK",
+        percentage: "90",
       },
       {
         skillName: "LARAVEL FRAMEWORK",

@@ -3,7 +3,7 @@ export const data = {
     {
       title: "Software Developer",
       subTitle: "Java Software Developer",
-      description: "Solving Issues as a Java developer ",
+      description: "Solving Real Life Issues as a Java developer ",
     },
     {
       title: "Full Stack Developer",
@@ -20,12 +20,34 @@ export const data = {
     {
       title: "Frontend Developer",
       subTitle: "React Development",
-      description: "Solving Issues as a React Frontend developer ",
+      description: "React Frontend developer ",
     },
     {
       title: "Software Developer",
       subTitle: "PHP Software Developer",
       description: "Solving Issues as a PHP developer ",
+    },
+    {
+      title: "Software Developer",
+      subTitle: "Java Software Developer",
+      description: "Created The Employee Management Portal ",
+    },
+    {
+      title: "Java ",
+      subTitle: "Software Developer",
+      description: "Created the searching website ",
+    },
+    {
+      title: "Java ",
+      subTitle: "",
+      description:
+        "Created the calculator API which can perform all the basic calculations performed by a calculator ",
+    },
+    {
+      title: "Open Source",
+      subTitle: "Issue Solving ",
+      description:
+        "Contributed in solving the issues in open source Projects {GitHub} ",
     },
   ],
   education: [

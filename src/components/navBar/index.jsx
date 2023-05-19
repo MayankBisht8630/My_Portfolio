@@ -37,21 +37,23 @@ const NavBar = () => {
     setToggleIcon(!toggleIcon);
   };
 
-  return(
+  return (
     <div>
-      <nab className="navbar">
+      <nav className="navbar">
         <div className="navbar__container">
-          <Link to={'/'} className="navbar__container__logo">
+          <Link to={"/"} className="navbar__container__logo">
             <FaReact size={30} />
           </Link>
         </div>
-        < ul className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
+        <ul
+          className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
         >
-          {data.map((item, key)=> (
+          {data.map((item, key) => (
             <li key={key} className="navbar__container__menu__item">
               <Link
                 className="navbar__container__menu__item__links"
                 to={item.to}
+                onClick={handelToggleIcon}
               >
                 {item.label}
               </Link>
@@ -61,7 +63,7 @@ const NavBar = () => {
         <div className="nav-icon" onClick={handelToggleIcon}>
           {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
         </div>
-      </nab>
+      </nav>
     </div>
   );
 };
