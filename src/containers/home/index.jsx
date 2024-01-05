@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import {FaLinkedin , FaGithub , FaInstagram} from 'react-icons/fa'
+import {FaLinkedin , FaGithub , FaInstagram } from 'react-icons/fa'
 import { useNavigate } from "react-router-dom";
 import { Animate } from 'react-simple-animate'
 

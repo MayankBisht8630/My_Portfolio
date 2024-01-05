@@ -17,10 +17,19 @@
         font-size: 8rem;
         line-height: 10rem;
         position: relative;
+        text-align: center;
         overflow: hidden;
         white-space: nowrap;
         animation: typingEffectAnimation 2.5s steps(30,end)
     }
+  }
+
+  .home__contact-me button {
+    margin: 6px;
+  }
+
+  .home__contact-me a{
+    text-decoration: none !important;
   }
 
   &__contact-me{
@@ -66,6 +75,45 @@
         line-height: 5rem;
     }
 
+    .home__contact-me button {
+        margin: 3px !important;
+      }
+
+    .home__contact-me a {
+        font-size: 1rem !important;
+    }
+
+    .home__contact-me a {
+        font-size: 1rem !important;
+    }
+
+    .home__contact-me button {
+        font-size: 1rem !important;
+    }
+    
+}
+
+@media only screen and (max-width :298px){
+    .home__text-wrapper h1{
+        font-size: 18px;
+        line-height: 5rem;
+    }
+
+    .home__contact-me button {
+        margin: 1px !important;
+      }
+
+    .home__contact-me a {
+        font-size: 10px !important;
+    }
+
+    .home__contact-me a {
+        font-size: 10px !important;
+    }
+
+    .home__contact-me button {
+        font-size: 10px !important;
+    }
     
 }
 
