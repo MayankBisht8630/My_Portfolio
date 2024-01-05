@@ -7,6 +7,7 @@ import { DiJava } from "react-icons/di";
 import { DiDatabase } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
+import profile from "../../images/profile.jpg";
 
 const personalDetails = [
   {
@@ -58,7 +59,6 @@ const About = () => {
             <h3>Full Stack Java Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
-
           <Animate
             play
             duration={1.5}
@@ -71,6 +71,9 @@ const About = () => {
             }}
           >
             <h3 className="personalInformationHeaderText">Personal Details</h3>
+            <div className="profile_image">
+              <img src={profile} height='200px' width='200px'></img>
+            </div>
             <ul>
               {personalDetails.map((item, i) => (
                 <li key={i}>
