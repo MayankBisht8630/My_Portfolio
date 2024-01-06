@@ -4,7 +4,7 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
 import { DiJava } from "react-icons/di";
-import { DiDatabase } from "react-icons/di";
+import { DiDatabase ,DiAndroid } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
 import profile from "../../images/profile.jpg";
@@ -56,7 +56,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Full Stack Java Developer</h3>
+            <h3>Full Stack Software Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
           <Animate
@@ -98,7 +98,7 @@ const About = () => {
           >
             <div className="about__content__serviceswrapper__innerContent">
               <div>
-                <DiJavascript
+                <DiAndroid
                   size={60}
                   color="var(--yellow-theme-main-color)"
                 />
