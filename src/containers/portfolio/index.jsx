@@ -8,15 +8,42 @@ import ImageFour from "../../images/image4.jpg";
 import ImageFive from "../../images/image5.jpg";
 import ImageSix from "../../images/image6.jpg";
 import ImageSeven from "../../images/image7.jpg";
+import ImageEight from "../../images/rims.jpg";
+import ImageNine from "../../images/ukenergy.jpg";
+import ImageTen from "../../images/website.jpg";
 import "./styles.scss";
 import { useState } from "react";
 
 const portfolioData = [
   {
     id: 2,
+    name: "UK Energy",
+    image: ImageNine,
+    link: "https://www.u-sac.in/",
+  },
+  {
+    id: 2,
+    name: "RIMS Uttarakhand",
+    image: ImageEight,
+    link: "https://play.google.com/store/apps/details?id=com.rajbhawan.ims_mobile_app",
+  },
+  {
+    id: 2,
+    name: "Satellite Scene Identifier",
+    image: ImageNine,
+    link: "https://www.u-sac.in/",
+  },
+  {
+    id: 3,
+    name: "Website Frontend",
+    image: ImageTen,
+    link: "https://mayankpage.netlify.app/",
+  },
+  {
+    id: 2,
     name: "E Library Website",
     image: ImageOne,
-    link: "",
+    link: "https://www.google.co.in/",
   },
   {
     id: 2,
@@ -125,8 +152,8 @@ const portfolio = () => {
                   <div>
                     <p>{item.name}</p>
                     <button>
-                      <a href="https://github.com/MayankBisht8630">
-                        GitHub Repo
+                      <a href={item.link} className="link_item">
+                        Follow Link
                       </a>
                     </button>
                   </div>

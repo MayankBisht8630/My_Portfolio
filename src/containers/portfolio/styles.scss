@@ -37,7 +37,7 @@
       margin-top: 10px;
 
       &__item {
-        height: 366px;
+        height: 254px;
         cursor: pointer;
         position: relative;
         
@@ -47,13 +47,14 @@
 
         &__img-wrapper {
           height: 100%;
+          
 
           a {
             height: 100%;
 
             img {
               height: inherit;
-              object-fit: cover;
+              object-fit: fill;
               width: 100%;
             }
           }
@@ -107,6 +108,10 @@
   }
 }
 
+.link_item{
+  text-decoration: none !important;
+}
+
 @media only screen and (max-width: 480px){
     .portfolio__content__filter > li{
         font-size: 9px;
@@ -115,6 +120,15 @@
     .portfolio__content__cards{
         grid-template-columns: repeat(1,1fr);
     }
+
+    .portfolio__content__cards__item .overlay div p {
+      font-size: 2rem !important;
+    }
+
+    .portfolio__content__cards__item .overlay div button {
+      padding: 6px 12px !important;
+      width: 142px !important;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px){
@@ -135,6 +149,20 @@
         }
     }
 
+}
+
+@media only screen and (max-width: 297px){
+  .wrapper{
+    padding: 10px !important;
+  }
+
+  .portfolio__content__filter li {
+    padding: 12px 16px !important;
+}
+
+.wrapper h2 {
+  font-size: 30px !important;
+}
 }
 
 @keyframes typingEffect{
