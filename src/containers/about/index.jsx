@@ -34,7 +34,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "Seasoned and Independent Full Stack Java Software Developer With 1 Year of experience in blending the art of design in skill of programming to deliver an immersing and engaging user experience through effecient software development . Very passionate about Java Software Development . ";
+  "Seasoned and Independent Full Stack Software Developer With 2 Year of experience in blending the art of design in skill of programming to deliver an immersing and engaging user experience through effecient software development . Very passionate about Software Development . ";
 
 const About = () => {
   return (
@@ -72,7 +72,7 @@ const About = () => {
           >
             <h3 className="personalInformationHeaderText">Personal Details</h3>
             <div className="profile_image">
-              <img src={profile} height='200px' width='200px'></img>
+              <img src={profile}></img>
             </div>
             <ul>
               {personalDetails.map((item, i) => (

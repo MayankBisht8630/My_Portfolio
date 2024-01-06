@@ -11,11 +11,11 @@ export const skillData = [
         percentage: "90",
       },
       {
-        skillName: "CSS",
-        percentage: "80",
+        skillName: "JAVASCRIPT",
+        percentage: "90",
       },
       {
-        skillName: "JAVASCRIPT",
+        skillName: "CSS",
         percentage: "80",
       },
       {
@@ -32,11 +32,15 @@ export const skillData = [
     label: "BACK END",
     data: [
       {
+        skillName: "ANDROID",
+        percentage: "90",
+      },
+      {
         skillName: "JAVA",
         percentage: "90",
       },
       {
-        skillName: "PHP",
+        skillName: "PYTHON",
         percentage: "80",
       },
       {
@@ -44,8 +48,8 @@ export const skillData = [
         percentage: "60",
       },
       {
-        skillName: "PYTHON",
-        percentage: "50",
+        skillName: "PHP",
+        percentage: "60",
       },
     ],
   },
@@ -53,7 +57,7 @@ export const skillData = [
     label: "FRAMEWORKS AND DATABASES",
     data: [
       {
-        skillName: "SPRING FRAMEWORK",
+        skillName: "JETPACK COMPOSE",
         percentage: "90",
       },
       {
@@ -67,6 +71,10 @@ export const skillData = [
       {
         skillName: "LARAVEL FRAMEWORK",
         percentage: "60",
+      },
+      {
+        skillName: "FIREBASE",
+        percentage: "90",
       },
       {
         skillName: "MY SQL DATABASE",
