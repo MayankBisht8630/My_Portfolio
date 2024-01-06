@@ -33,7 +33,6 @@ const Resume = () => {
                   color: "var(--yellow-theme-sub-text-color)",
                   border: "1.5px solid var(--yellow-theme-main-color)",
                 }}
-                date="2022 - Present"
                 icon={<MdWork />}
                 iconStyle={{
                   background: "#181818",
@@ -48,6 +47,7 @@ const Resume = () => {
                 <p className="vertical-timeline-element-title-wrapper-description">
                   {item.description}{" "}
                 </p>
+                <h5 className="date__">{item.date}</h5>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
@@ -81,6 +81,7 @@ const Resume = () => {
                 <p className="vertical-timeline-element-title-wrapper-description">
                   {item.description}{" "}
                 </p>
+                <h5 className="date__">{item.date}</h5>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
