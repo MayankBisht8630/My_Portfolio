@@ -32,10 +32,10 @@ const Home = () => {
       >
         <div className="home__contact-me">
           <button onClick={handleNavigteToContactMePage}> Contact Me</button>
-          <button ><a href="https://github.com/MayankBisht8630"><FaGithub/></a></button>
-          <button ><a href="https://www.linkedin.com/in/mayank-bisht-b00ba6236"><FaLinkedin/></a></button>
-          <button ><a href="https://www.instagram.com/bisht_mayank_/"><FaInstagram/></a></button>
-          <button ><a href="https://docs.google.com/document/d/1F356jblSWedrm9ns6yRNwVrZ1JlEi1WTwfs_YzS2IJU/edit?usp=sharing">Resume</a></button>
+          <button ><a href="https://github.com/MayankBisht8630" rel="noopener" target="_blank"><FaGithub/></a></button>
+          <button ><a href="https://www.linkedin.com/in/mayank-bisht-b00ba6236" rel="noopener" target="_blank"><FaLinkedin/></a></button>
+          <button ><a href="https://www.instagram.com/bisht_mayank_/" rel="noopener" target="_blank"><FaInstagram/></a></button>
+          <button ><a href="https://drive.google.com/drive/folders/1ZxFUEL2DSSYY4vRuSJocD17izBALlfcR?usp=sharing" rel="noopener" target="_blank">Resume</a></button>
 
         </div>
       </Animate>

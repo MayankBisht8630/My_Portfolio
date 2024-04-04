@@ -4,6 +4,7 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
 
+
 const Contact = () => {
   return (
     <section id="contact" className="contact">
@@ -36,27 +37,28 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
+          <form action="https://formspree.io/f/xvoewjng" method="POST">
           <div className="contact__content__form">
             <div className="contact__content__form__controlswrapper">
               <div>
                 <input
                   required
-                  name="name"
+                  name="Name"
                   className="inputName"
                   type={"text"}
                 />
-                <label htmlFor="name" className="nameLabel">
+                <label htmlFor="Name" className="nameLabel">
                   Name
                 </label>
               </div>
               <div>
                 <input
                   required
-                  name="email"
+                  name="Email"
                   className="inputEmail"
-                  type={"text"}
+                  type="email"
                 />
-                <label htmlFor="email" className="emailLabel">
+                <label htmlFor="Email" className="emailLabel">
                   Email
                 </label>
               </div>
@@ -73,8 +75,9 @@ const Contact = () => {
                 </label>
               </div>
             </div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </div>
+          </form>
         </Animate>
       </div>
     </section>
