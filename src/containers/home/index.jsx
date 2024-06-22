@@ -3,15 +3,28 @@ import "./styles.scss";
 import {FaLinkedin , FaGithub , FaInstagram } from 'react-icons/fa'
 import { useNavigate } from "react-router-dom";
 import { Animate } from 'react-simple-animate'
+import particles from "../../utills.js/particles";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+
 
 const Home = () => {
   const navigate = useNavigate();
   const handleNavigteToContactMePage = () => {
     navigate("/contact");
   };
+
+  const handleInit = async (main) => {
+    await loadFull(main);
+  };
+  const renderParticleJsInHomepage = location.pathname === "/";
   
   return (
     <section id="home" className="home">
+      {/*particles js*/}
+      {renderParticleJsInHomepage && (
+            <Particles id="particles" options={particles} init={handleInit} />
+          )}
       <div className="home__text-wrapper">
         <h1>
           Hello !! I am Mayank Bisht

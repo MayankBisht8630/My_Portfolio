@@ -9,9 +9,6 @@ import Contact from "./containers/contact";
 import Manku from "./containers/portfolio";
 import NavBar from "./components/navBar";
 import { BrowserRouter } from "react-router-dom";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import particles from "./utills.js/particles";
 
 function App() {
 
@@ -19,19 +16,10 @@ function App() {
     document.title = "Mayank Bisht Portfolio"; // Set the desired title here
   }, []);
 
-
-  const handleInit = async (main) => {
-    await loadFull(main);
-  };
-  const renderParticleJsInHomepage = location.pathname === "/";
   return (
     <>
       <div className="App">
         <BrowserRouter>
-          {/*particles js*/}
-          {renderParticleJsInHomepage && (
-            <Particles id="particles" options={particles} init={handleInit} />
-          )}
 
           {/*navar*/}
           <NavBar />

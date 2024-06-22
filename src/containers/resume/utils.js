@@ -5,7 +5,7 @@ export const data = {
       subTitle: "( At Raj Bhawan Uttarakhand )",
       description:
         "Virtual Presenter: AI-Enhanced Video Generator for Raj Bhawan Uttarakhand Developed an AI and ML-embedded text-to-realistic video generator for Raj Bhawan Uttarakhand. This innovative solution creates videos that appear to be made by real people, using smart avatar technology to convert text into lifelike video content. This system solves the challenge of producing high-quality, engaging video messages efficiently, reducing the need for extensive video production resources and time. It's a game-changer for delivering personalized, impactful communications.",
-      date:"Jan 2023 - Present"
+      date:"Jan 2024 - March 2024"
     },
     {
       title: "Trainee",
@@ -25,14 +25,14 @@ export const data = {
       title: "Intern",
       subTitle: "( At ColoredCow )",
       description:
-        "Designed and Implemented various features in Employee Portal.",
-        date:"April 2023 - May 2023"
+        "Developed and integrated multiple features within the Employee Portal, enhancing functionality and user experience. Spearheaded solutions to diverse challenges, optimizing workflows and bolstering operational efficiency.",
+        date:"Feb 2023 - May 2023"
       },
     {
       title: "Open Source",
       subTitle: "Issue Solving ",
       description:
-        "Contributed in solving the issues in open source Projects {GitHub} ",
+        "Actively contributed to solving real-life issues in open-source projects on GitHub. Collaborated with a global community of developers to enhance software that addresses various practical challenges, such as improving accessibility features for individuals with disabilities, optimizing code for better performance, and adding new functionalities to enhance user experience. Through these contributions, I developed problem-solving skills and made impactful improvements to widely-used open-source software. ",
         date:"2022 - Present"
     },
   ],
