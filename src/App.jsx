@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Home from "./containers/home";
@@ -13,6 +14,11 @@ import { loadFull } from "tsparticles";
 import particles from "./utills.js/particles";
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Mayank Bisht Portfolio"; // Set the desired title here
+  }, []);
+
 
   const handleInit = async (main) => {
     await loadFull(main);
