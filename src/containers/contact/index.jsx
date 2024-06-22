@@ -37,7 +37,8 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-          <form action="https://formspree.io/f/xvoewjng" method="POST">
+          <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="fe59764b-2f3e-4cbf-9b13-a3c46dcf37f6"></input>
           <div className="contact__content__form">
             <div className="contact__content__form__controlswrapper">
               <div>

@@ -1,59 +1,33 @@
 export const data = {
   experience: [
     {
-      title: "Software developer at Adamya Innovations ",
-      subTitle: "( Android and Web Developer )",
+      title: "Project Lead Developer",
+      subTitle: "( At Raj Bhawan Uttarakhand )",
       description:
-        "Working as a Software Developer",
+        "Virtual Presenter: AI-Enhanced Video Generator for Raj Bhawan Uttarakhand Developed an AI and ML-embedded text-to-realistic video generator for Raj Bhawan Uttarakhand. This innovative solution creates videos that appear to be made by real people, using smart avatar technology to convert text into lifelike video content. This system solves the challenge of producing high-quality, engaging video messages efficiently, reducing the need for extensive video production resources and time. It's a game-changer for delivering personalized, impactful communications.",
       date:"Jan 2023 - Present"
     },
     {
-      title: "Project Intern at Raj Bhawan Uttarakhand",
-      subTitle: "( Andoid Developer )",
+      title: "Trainee",
+      subTitle: "( At Uttarakhand Space Application Centre )",
       description:
-        "Build a Mobile and Web Application for Raj Bhawan Uttarakhand to maintain the inventory of Raj Bhawan. (Inventory Management System Raj Bhawan Uttarakhand). Led the development of an Inventory Management System for Raj Bhawan’s Nainital and Dehradun locations, effectively cataloguing and organizing over 10,000 non-consumable items. Spearheaded system design and application development, integrating QR code technology for efficient tracking and management of extensive inventory",
-        date:"Jun 2023 - Aug 2023"
-      },
-    {
-      title: "Trainee at Uttarakhand Space Application Center",
-      subTitle: "( Software Developer )",
-      description:
-        "Worked on a government initiative in Uttarakhand, India, conducting detailed Geo-spatial analysis of its energy sector using advanced Geo-sensing, Geo-processing, and Geo-referencing. Key contributor in the mapping and analysis of 100+ energy generation sites, 400+ distribution points, and 300+ substations, aiding in improving energy efficiency and infrastructure development in the state.",
+        " Worked on a government initiative in Uttarakhand, India, conducting detailed Geo-spatial analysis of its energy sector using advanced Geo-sensing, Geo-processing, and Geo-referencing. Key contributor in the mapping and analysis of 100+ energy generation sites, 400+ distribution points, and 300+ substations, aiding in improving energy efficiency and infrastructure development in the state.",
         date:"Aug 2023 - Nov 2023"
       },
     {
-      title: "Project Intern at Freeskout",
-      subTitle: "( FrontEnd Developer )",
+      title: "Project Intern ",
+      subTitle: "( At Raj Bhawan Uttarakhandr )",
       description:
-        "Designed and Implemented complete frontend for a website with exciting features and animations.",
-        date:"April 2023 - May 2023"
+        "Led the successful development and implementation of an Inventory Management System for Raj Bhawan Uttarakhand, encompassing locations in Nainital and Dehradun. Effectively streamlined the cataloguing and organization of over 10,000 non-consumable items, previously hindered by manual processes. Spearheaded the design and development of mobile and web applications, integrating cutting-edge QR code technology for efficient tracking and real-time updates. ",
+        date:"Jun 2023 - Aug 2023"
       },
     {
-      title: "Full Stack Developer",
-      subTitle: "Full Stack Software Developer",
+      title: "Intern",
+      subTitle: "( At ColoredCow )",
       description:
-        "Designed a full fledge E library website Which can performs all the library operations for ColoredCow",
-        date:"Feb 2023 - April 2023"
-    },
-    {
-      title: "Full Stack Developer",
-      subTitle: "Full Stack Software Development",
-      description:
-        "Designed a Techenical Bloging website in which anyone can share its techenical thaughts",
-        date:"Nov 2022 - Dec 2022"
-    },
-    {
-      title: "Frontend Developer",
-      subTitle: "React Development",
-      description: "React Frontend developer ",
-      date:"Aug 2022 - Nov 2022"
-    },
-    {
-      title: "Software Developer",
-      subTitle: "Java Software Developer",
-      description: "Created The Employee Management Portal ",
-      date:"Feb 2022 - Aug 2022"
-    },
+        "Designed and Implemented various features in Employee Portal.",
+        date:"April 2023 - May 2023"
+      },
     {
       title: "Open Source",
       subTitle: "Issue Solving ",

@@ -36,6 +36,10 @@ export const skillData = [
         percentage: "90",
       },
       {
+        skillName: "KOTLIN",
+        percentage: "95",
+      },
+      {
         skillName: "JAVA",
         percentage: "90",
       },

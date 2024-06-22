@@ -1,86 +1,85 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import ImageOne from "../../images/image1.jpg";
-import ImageTwo from "../../images/image2.jpg";
-import ImageThree from "../../images/image3.jpg";
+import ImageOne from "../../images/FO.jpeg";
+import ImageTwo from "../../images/PEX.jpeg";
+import ImageThree from "../../images/UC.jpeg";
 import ImageFour from "../../images/image4.jpg";
-import ImageFive from "../../images/image5.jpg";
+import ImageFive from "../../images/AD.jpg";
 import ImageSix from "../../images/image6.jpg";
 import ImageSeven from "../../images/image7.jpg";
 import ImageEight from "../../images/rims.jpg";
 import ImageNine from "../../images/ukenergy.jpg";
 import ImageTen from "../../images/website.jpg";
-import Imageeleven from "../../images/mbvt.jpg";
+import Imageeleven from "../../images/VP.jpeg";
 import "./styles.scss";
 import { useState } from "react";
 
 const portfolioData = [
   {
     id: 2,
-    name: "UK Energy",
+    name: "Apke Dwar App",
+    image: ImageFive,
+    link: "https://play.google.com/store/apps/details?id=com.mayankbisht.apkedwar&hl=en_US",
+  },
+  {
+    id: 3,
+    name: "Virtual Presenter",
+    image: Imageeleven,
+    link: "https://chatbot-rajbhawan-uk.netlify.app/",
+  },
+  {
+    id: 2,
+    name: "Find Objects App",
+    image: ImageOne,
+    link: "https://play.google.com/store/apps/details?id=com.bishtMayank.objectdetection&hl=en_US",
+  },
+  {
+    id: 2,
+    name: "Expense Manager App",
+    link: "https://play.google.com/store/apps/details?id=com.shubhamranswal.pex&hl=en_US",
+    image: ImageTwo,
+  },
+  {
+    id: 2,
+    name: "University Connect App",
+    image: ImageThree,
+    link: "https://play.google.com/store/apps/details?id=com.ukgovernor.uk_governor&hl=en_US",
+  },
+  {
+    id: 2,
+    name: "UK Energy App",
     image: ImageNine,
     link: "https://www.u-sac.in/",
   },
   {
     id: 2,
-    name: "RIMS Uttarakhand",
+    name: "RIMS Uttarakhand App",
     image: ImageEight,
     link: "https://play.google.com/store/apps/details?id=com.rajbhawan.ims_mobile_app",
   },
   {
-    id: 2,
+    id: 3,
     name: "Satellite Scene Identifier",
     image: ImageNine,
     link: "https://www.u-sac.in/",
   },
   {
     id: 3,
-    name: "Virtual Toor Website",
-    image: Imageeleven,
-    link: "https://mbvt.netlify.app",
-  },
-  {
-    id: 3,
     name: "Website Frontend",
     image: ImageTen,
-    link: "https://mayankpage.netlify.app/",
-  },
-  {
-    id: 2,
-    name: "E Library Website",
-    image: ImageOne,
-    link: "https://www.google.co.in/",
-  },
-  {
-    id: 2,
-    name: "Search Website",
-    link: "",
-    image: ImageTwo,
-  },
-  {
-    id: 2,
-    name: "Management Website",
-    image: ImageThree,
-    link: "",
-  },
-  {
-    id: 2,
-    name: "Bloging Website",
-    image: ImageFour,
-
-    link: "",
-  },
-  {
-    id: 2,
-    name: "Calculator API",
-    image: ImageFive,
     link: "",
   },
   {
     id: 3,
     name: "Portfolio Website",
     image: ImageSix,
+    link: "",
+  },
+  {
+    id: 3,
+    name: "E Library",
+    image: ImageFour,
     link: "",
   },
   {
@@ -98,11 +97,11 @@ const filterData = [
   },
   {
     filterId: 2,
-    label: "Developement",
+    label: "Application",
   },
   {
     filterId: 3,
-    label: "Design",
+    label: "Website",
   },
 ];
 

@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Home from "./containers/home";
 import About from "./containers/about";
